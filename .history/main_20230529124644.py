@@ -35,12 +35,3 @@ footer {visibility: hidden;}
 </style>
 """
 st.markdown(hide_menu_style, unsafe_allow_html=True)  # Allow HTML parsing
-
-# Hide streamlit's default image expanders from app interface
-hide_img_fs = """
-<style>
-button[title="View fullscreen"]{
-    visibility: hidden;}
-</style>
-"""
-st.markdown(hide_img_fs, unsafe_allow_html=True)  # Allow HTML parsing
